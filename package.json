@@ -1,0 +1,19 @@
+{
+  "name": "jte-basic-fe",
+  "version": "1.0.0",
+  "description": "Nodejs simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-fina/jte-basic-fe.git"
+  },
+  "author": "afinamore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-fina/jte-basic-fe/issues"
+  },
+  "homepage": "https://github.com/a-fina/jte-basic-fe#readme"
+}
