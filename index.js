@@ -1,6 +1,8 @@
-const server = require('./server');
-const {get} = server.router;
+var static = require('node-static');
+var http = require('http');
 
-server.get({port: 8000},[
-    get('/', ctx => 'Hello World' )
-]);
+var file = new(static.Server)(__dirname);
+
+http.createServer(function (req, res) {
+  file.serve(req, res);
+}).listen(8080);

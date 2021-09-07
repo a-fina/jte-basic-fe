@@ -4,7 +4,8 @@
   "description": "Nodejs simple app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/a-fina/jte-basic-fe/issues"
   },
-  "homepage": "https://github.com/a-fina/jte-basic-fe#readme"
+  "homepage": "https://github.com/a-fina/jte-basic-fe#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "node-static": "^0.7.11",
+    "server": "^1.0.35"
+  }
 }
