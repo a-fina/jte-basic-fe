@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/a-fina/jte-basic-fe#readme",
   "dependencies": {
+    "cypress": "^6.6.0",
     "http": "0.0.1-security",
     "node-static": "^0.7.11",
     "server": "^1.0.35"
