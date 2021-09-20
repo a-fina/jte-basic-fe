@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Run Cypress TOP Test') { 
             steps {
-                sh 'npm test'
+                sh 'npm test & npm run cy:run'
             }
         }
     }
