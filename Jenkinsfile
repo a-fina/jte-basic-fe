@@ -7,6 +7,7 @@ pipeline {
     environment {
         // Override HOME to WORKSPACE
         HOME = "${WORKSPACE}"
+        NO_COLOR = "1"
     }
     stages {
         stage('Install Cypress Dependencies') { 
